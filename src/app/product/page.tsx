@@ -36,7 +36,7 @@ export default function ProductPage(){
 
                         <Link
                             href="/contact"
-                            className="inline-block mt-10 bg-[#eb5724] text-white text-xl px-20 py-5 rounded-full font-bold text-lg shadow-md">
+                            className="inline-block mt-10 bg-[#eb5724] text-white text-xl px-20 py-5 rounded-full font-bold text-lg shadow-md transition-transform duration-300 hover:scale-140">
                             Order Now
                         </Link>
                     </div>

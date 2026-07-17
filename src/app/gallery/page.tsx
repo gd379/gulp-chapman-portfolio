@@ -8,11 +8,11 @@ import { FaTimes } from "react-icons/fa";
 import Link from "next/link";
 
 const galleryImages = [
-    "/images/galleryImage1.png",
+    "/images/galleryImage1.jpg",
     "/images/galleryImage2.jpg",
     "/images/galleryImage3.jpg",
     "/images/galleryImage4.jpg",
-    "/images/galleryImage5.jpg",
+    "/images/galleryImage5.webp",
     "/images/galleryImage6.jpg",
 ];
 

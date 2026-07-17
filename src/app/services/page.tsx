@@ -109,7 +109,7 @@ export default function ServicesPage() {
 
                 <Link 
                     href="/contact"
-                    className="inline-block mt-8 bg-[#f4511e] text-white px-16 py-4 rounded-md font-bold shadow-md">
+                    className="inline-block mt-8 bg-[#f4511e] text-white px-16 py-4 rounded-md font-bold shadow-md transition-transform duration-300 hover:scale-140">
                         Order Now
                 </Link>
             </section>

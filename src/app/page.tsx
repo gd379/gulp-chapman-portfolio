@@ -36,12 +36,12 @@ export default function Home() {
           <div className="mt-8 flex flex-col sm:flex-row gap-6 justify-center">
             <Link 
               href="/contact"
-              className="bg-[#f4511e] px-10 py-4 rounded-md font-bold shadow-md">
+              className="bg-[#f4511e] text-white px-10 py-4 rounded-md font-bold shadow-md transition-transform duration-300 hover:scale-140">
               Book Event
             </Link>
             <Link
               href="/product"
-              className="bg-[#f4511e] px-10 py-4 rounded-md font-bold shadow-md">
+              className="bg-[#f4511e] text-white px-10 py-4 rounded-md font-bold shadow-md transition-transform duration-300 hover:scale-140">
               View Product
             </Link>
           </div>
@@ -75,7 +75,7 @@ export default function Home() {
 
             <Link
               href="/contact"
-              className="inline-block mt-8 bg-[#f4511e] text-white px-10 py-4 rounded-md font-bold shadow-md">
+              className="inline-block mt-8 bg-[#f4511e] text-white px-10 py-4 rounded-md font-bold shadow-md transition-transform duration-300 hover:scale-150">
               Order Now
             </Link>
           </div>

@@ -40,13 +40,32 @@ export default function Navbar() {
             />
           </Link>
 
-          <nav className="hidden lg:flex absolute left-1/2 -translate-x-1/2 gap-10 font-bold text-white">
-            {navLinks.map((link) => (
-              <Link key={link.href} href={link.href}>
-                {link.label}
-              </Link>
-            ))}
-          </nav>
+          <nav className="hidden lg:flex absolute left-1/2 -translate-x-1/2 gap-10 font-bold">
+  {navLinks.map((link) => (
+    <Link
+      key={link.href}
+      href={link.href}
+      className="
+        relative
+        text-white
+        transition-all
+        duration-300
+        hover:text-[#ff7a1a]
+        after:absolute
+        after:left-0
+        after:-bottom-1
+        after:h-[2px]
+        after:w-0
+        after:bg-[#ff7a1a]
+        after:transition-all
+        after:duration-300
+        hover:after:w-full
+      "
+    >
+      {link.label}
+    </Link>
+  ))}
+</nav>
         </div>
       </header>
 

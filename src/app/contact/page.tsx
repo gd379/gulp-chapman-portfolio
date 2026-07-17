@@ -246,7 +246,7 @@ export default function BookEventPage() {
                       processBookingForm(formRef.current);
                     }
                   }}
-                  className="bg-[#f4511e] text-white font-bold px-20 py-3 rounded-full shadow-md disabled:opacity-60 touch-manipulation"
+                  className="bg-[#f4511e] text-white font-bold px-20 py-3 rounded-full shadow-md disabled:opacity-60 touch-manipulation transition-all duration-300 hover:scale-110 hover:shadow-xl disabled:opacity-60 disabled:hover:scale-100"
                 >
                   {loading ? "Submitting..." : "Submit Request"}
                 </button>
