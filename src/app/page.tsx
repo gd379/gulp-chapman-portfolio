@@ -12,7 +12,7 @@ export default function Home() {
       {/* Hero section */}
       <section className="relative min-h-[750px] flex items-center justify-center text-white text-center px-6">
         <Image
-          src="/images/homeHeroImage.jpg"
+          src="/images/homepageImage.jpeg"
           alt="Chapman drinks"
           fill
           className="object-cover"
@@ -75,7 +75,7 @@ export default function Home() {
 
             <Link
               href="/contact"
-              className="inline-block mt-8 bg-[#f4511e] text-white px-10 py-4 rounded-md font-bold shadow-md transition-transform duration-300 hover:scale-150">
+              className="inline-block mt-8 bg-[#f4511e] text-white px-10 py-4 rounded-md font-bold shadow-md transition-transform duration-300 hover:scale-140">
               Order Now
             </Link>
           </div>

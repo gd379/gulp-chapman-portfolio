@@ -62,7 +62,7 @@ export default function ServicesPage() {
             {/*Main hero section*/}
             <section className="relative min-h-[490px] md:min-h-[645px] flex items-center justify-center text-center text-white px-6">
                 <Image
-                    src="/images/serviceheroImage.jpg"
+                    src="/images/homepageImage.jpeg"
                     alt="Image of cocktails"
                     fill
                     priority
@@ -141,7 +141,7 @@ export default function ServicesPage() {
 
                     <div className="w-full md:w-1/2 flex justify-center">
                         <Image
-                            src="/images/servicepageImage.webp"
+                            src="/images/chapmanImage1.jpeg"
                             alt="Chapman"
                             width={430}
                             height={520}

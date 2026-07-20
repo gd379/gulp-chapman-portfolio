@@ -11,7 +11,7 @@ export default function AboutPage() {
       {/* HERO */}
       <section className="relative min-h-[530px] md:min-h-[600px] flex items-center justify-center text-center text-white px-6">
         <Image
-          src="/images/aboutHeroImage.jpg"
+          src="/images/homepageImage.jpeg"
           alt="Chapman drinks"
           fill
           priority

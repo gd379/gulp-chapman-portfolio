@@ -13,7 +13,7 @@ export default function ProductPage(){
                 <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12 ">
                     <div className="w-full md:w-1/2 flex justify-center">
                         <Image
-                            src="/images/productImage.jpg"
+                            src="/images/chapmanImage5.jpeg"
                             alt="Gulp Chapman drink"
                             width={430}
                             height={360}

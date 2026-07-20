@@ -8,12 +8,12 @@ import { FaTimes } from "react-icons/fa";
 import Link from "next/link";
 
 const galleryImages = [
-    "/images/galleryImage1.jpg",
-    "/images/galleryImage2.jpg",
-    "/images/galleryImage3.jpg",
-    "/images/galleryImage4.jpg",
-    "/images/galleryImage5.webp",
-    "/images/galleryImage6.jpg",
+    "/images/chapmanImage1.jpeg",
+    "/images/chapmanImage2.jpeg",
+    "/images/chapmanImage4.jpeg",
+    "/images/chapmanImage5.jpeg",
+    "/images/ourChapmanImage.png",
+    "/images/homepageImage.jpeg",
 ];
 
 export default function GalleryPage(){
@@ -52,7 +52,7 @@ export default function GalleryPage(){
             {/* Hero Section */}
             <section className="relative min-h-[420px] md:min-h-[590px] flex items-center justify-center text-center text-white px-6">
                 <Image
-                    src="/images/galleryHeroImage.jpg"
+                    src="/images/chapmanImage4.jpeg"
                     alt="Chapman image"
                     fill
                     priority
