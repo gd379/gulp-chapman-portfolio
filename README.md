@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Gulp Chapman
 
-## Getting Started
+Gulp Chapman is a responsive web application developed to provide information about the business and support an online booking workflow. The project was built with a focus on creating a clean, user-friendly interface while integrating backend services for storing booking information.
 
-First, run the development server:
+## Features
 
-```bash
+- Responsive website design for desktop and mobile devices
+- Multi-page navigation for services, products, gallery, testimonials, and business information
+- Online booking functionality
+- Firebase integration for storing booking information
+- Email confirmation functionality
+- Reusable React components
+- User-friendly forms and interfaces
+
+## Technologies
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Firebase / Firestore
+- Git & GitHub
+
+## Project Structure
+
+The application uses reusable components and Next.js routing to organize the website into separate pages and features.
+
+Key areas include:
+
+- `src/app` - Application pages and routing
+- `src/components` - Reusable UI components
+- `src/data` - Application data
+- `src/lib` - Firebase configuration and supporting functionality
+- `public` - Images and other static assets
+
+## Firebase Configuration
+
+The application uses Firebase/Firestore for data storage.
+
+Environment-specific Firebase configuration values are not included in this repository. To run the project locally, create a `.env.local` file using the variables shown in `.env.example`.
+
+## Running the Project Locally
+
+Clone the repository:
+
+git clone https://github.com/gd379/gulp-chapman-portfolio.git
+
+Install the dependencies:
+
+npm install
+
+Start the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open `http://localhost:3000` in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## What I Worked On
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+I developed the application's web interface and functionality using Next.js and TypeScript, including responsive page layouts, reusable components, navigation, and Firebase integration. I also worked on the booking workflow and connecting user submissions to backend data storage.
 
-## Learn More
+This project strengthened my experience with front-end development, application structure, database integration, debugging, and building software around practical user requirements.
 
-To learn more about Next.js, take a look at the following resources:
+## Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Gideon Ajayi  
